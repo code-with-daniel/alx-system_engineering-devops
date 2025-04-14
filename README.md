@@ -1,25 +1,12 @@
-# ALX Software Engineering Self-Learning Journey 🚀
+# System Engineering Devops 🚀
 
-Welcome to my self-paced journey through the ALX Software Engineering curriculum. This repository contains folders for each topic I cover — with code, exercises, and personal notes.
+Welcome to DNC System ENgineering Devops. This repository contains folders for each topic I cover — with code, exercises, and personal notes on Sytem Engineering Deveops.
 
-Each folder includes:
-- Scripts I wrote while learning the topic
-- A `README.md` explaining what each script does
-- Key takeaways and concepts I’m exploring
+Each folders Includes:
+-Scripts i wrote while learning the topic
+-A README.md explaining what each scripts does
+-Key take-away and concept
 
-## 📚 Topics Covered So Far
+## Topics covered so far
 
-- [0x00-hello_world](./0x00-hello_world)
-- [0x01-variables_if_else_while](./0x01-variables_if_else_while)
-- [0x02-functions_nested_loops](./0x02-functions_nested_loops)
-- More coming soon...
-
-## 🛠️ Tools & Technologies
-
-- C Programming
-- Bash Scripting
-- Git & GitHub
-
-## 🎯 Goal
-
-To deeply understand software engineering fundamentals by building from scratch, documenting everything I learn, and tracking my growth over time.
+-[0x00-shell_basics](./0x00-shell_basics/)
