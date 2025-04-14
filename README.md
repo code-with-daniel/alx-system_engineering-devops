@@ -4,7 +4,7 @@ This repository is where I track my self-learning progress as I go through the A
 
 Here, I will document everything I learn, share my projects, and write down key takeaways, challenges, and resources that helped me along the way.
 
-## Learning Progress
+### Learning Progress
 
 - **Week 1: Introduction to Programming**
 
