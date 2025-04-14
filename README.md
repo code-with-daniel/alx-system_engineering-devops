@@ -1,21 +1,25 @@
-# My Learning Journey with the ALX Course
+# ALX Software Engineering Self-Learning Journey 🚀
 
-This repository is where I track my self-learning progress as I go through the ALX course. The course covers various aspects of software engineering, including data structures, algorithms, front-end, back-end, and more.
+Welcome to my self-paced journey through the ALX Software Engineering curriculum. This repository contains folders for each topic I cover — with code, exercises, and personal notes.
 
-Here, I will document everything I learn, share my projects, and write down key takeaways, challenges, and resources that helped me along the way.
+Each folder includes:
+- Scripts I wrote while learning the topic
+- A `README.md` explaining what each script does
+- Key takeaways and concepts I’m exploring
 
-### Learning Progress
+## 📚 Topics Covered So Far
 
-- **Week 1: Introduction to Programming**
+- [0x00-hello_world](./0x00-hello_world)
+- [0x01-variables_if_else_while](./0x01-variables_if_else_while)
+- [0x02-functions_nested_loops](./0x02-functions_nested_loops)
+- More coming soon...
 
-  - Learned the basics of programming in C, variables, data types, and operators.
-  - Completed hands-on exercises on writing simple programs.
+## 🛠️ Tools & Technologies
 
-- **Week 2: Data Structures**
+- C Programming
+- Bash Scripting
+- Git & GitHub
 
-  - Learned about arrays, linked lists, and basic sorting algorithms.
-  - Started practicing problems on sorting and searching algorithms.
+## 🎯 Goal
 
-- **Week 3: Algorithms**
-  - Focused on Big O notation, understanding algorithm efficiency, and recursion.
-  - Completed challenges related to recursion and sorting algorithms.
+To deeply understand software engineering fundamentals by building from scratch, documenting everything I learn, and tracking my growth over time.
