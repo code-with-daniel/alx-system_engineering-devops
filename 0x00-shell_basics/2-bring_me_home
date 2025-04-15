@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Write a script that chnages the working directory to the user's home directory
+cd ~

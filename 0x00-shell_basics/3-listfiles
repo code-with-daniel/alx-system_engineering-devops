@@ -1,0 +1,4 @@
+#!/bin/bash
+# Display current directory contents in a lond format
+
+ls -l
