@@ -11,9 +11,14 @@ Each folders Includes:
 
 ## Topics covered so far
 
-- [0x00-shell_basics](./0x00-shell_basics/)
+- [0x00-shell_basics](./0x00-shell_basics)
 - More coming soon
 
 ## 🛠️ Tools and Technologies
 
 - Bash Scripting
+-
+
+## 🎯 Goal
+
+To deeply understand software engineering fundamentals by building from scratch, documenting everything I learn, and tracking my growth over time.
