@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+# Create a script that moves all files beginning with uppercase letter to the directory /tmp/u
+# You can assume that the directory /tmp/u will exist when we will run the script 
+
+mv [[:upper:]]* /tmp/u
