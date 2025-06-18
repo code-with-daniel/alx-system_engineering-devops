@@ -37,7 +37,22 @@ Now, if we represent each of the three sets of permissions (owner, group, and ot
 
 Here is a table of numbers that covers all the common settings. The ones beginning with "7" are used with programs (since they enables execution) and the rest are for other kinds of files.
 
-| Value | Meaning                                                                                                                        |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 777   | (rwxrwxrwx) No restrictions on permissions. Anybody may do anything. Generally not a desirable setting.                        |
-| 755   | (rwxr-xr-x) The file's owner may read, write and execute the file. The setting common for programs that are used by all users. |
+| Value | Symbolic  | Meaning                                                                                             |
+| ----- | --------- | --------------------------------------------------------------------------------------------------- |
+| 777   | rwxrwxrwx | No restrictions. Anybody may read, write, and execute. **Not recommended** due to security risks.   |
+| 755   | rwxr-xr-x | Owner may read/write/execute. Others may read and execute. Common for shared programs.              |
+| 700   | rwx------ | Only the owner may read/write/execute. Useful for private scripts and executables.                  |
+| 666   | rw-rw-rw- | All users may read and write. **Execute permission is not granted**.                                |
+| 644   | rw-r--r-- | The owner may read and write a file while all others may only read the file.                        |
+| 600   | rw------- | The owner may read and write a file. All others have no rights. A common settings for owner privacy |
+
+## Directory Permissions
+
+The `chmod` command can also be used to control the access permissions for directories. Again, we can use the octal notation to set permissions, but the meaning of the r, w, and x attributes is different:
+
+- r - Allows the contents of the directory to be listed if thr x attributes is also set.
+- w - Allows files within the directory to be created, deleted, or renamed if the `x` attribute is also set.
+- x - Allows a directory to be entered (i.e cd dir).
+
+
+##
