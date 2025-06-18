@@ -25,7 +25,7 @@ rw- rw- rw- = 110 110 110
 
 and so on.....
 
-rwx = 111 in binary = 7
+|rwx = 111 in binary| = |7|
 rw- = 110 in binary = 6
 r-x = 101 in binary = 5
 r-- = 100 in binary = 4
@@ -36,7 +36,7 @@ Now, if we represent each of the three sets of permissions (owner, group, and ot
 
 Here is a table of numbers that covers all the common settings. The ones beginning with "7" are used with programs (since they enables execution) and the rest are for other kinds of files.
 
-| Value    | Meaning                                                                                                 |
-| -------- | ------------------------------------------------------------------------------------------------------- |
-| 777      | (rwxrwxrwx) No restrictions on permissions. Anybody may do anything. Generally not a desirable setting. |
-| 755      | (rwxr-xr-x) The file's owner may read, write and execute the file. The setting common for programs that are used by all users.|
+| Value | Meaning                                                                                                                        |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 777   | (rwxrwxrwx) No restrictions on permissions. Anybody may do anything. Generally not a desirable setting.                        |
+| 755   | (rwxr-xr-x) The file's owner may read, write and execute the file. The setting common for programs that are used by all users. |
