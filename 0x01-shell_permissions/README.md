@@ -54,5 +54,22 @@ The `chmod` command can also be used to control the access permissions for direc
 - w - Allows files within the directory to be created, deleted, or renamed if the `x` attribute is also set.
 - x - Allows a directory to be entered (i.e cd dir).
 
+## Becoming the Superuser for a short while
 
-##
+It is often necessary to become the superuser to perform important system administration tasks, but as we know we should not stay logged in as the superuser. In most distributions, there is a program that can give you temporary access to the superuser's privileges. This program is called `su` (short for substitute user) and can be used in those cases when you need to be the superuser for a small number of tasks. To become the superuser, simply type the `su` command. you will be prompted for the superuser's password.
+
+After executing the `su` command, we have a new shell session as the superuser. To exit the superuser session, type `exit` and we will return to your previous session.
+
+## Changing File Ownership
+
+We can change the owner of a file by using the `chown` Hers's an exampleL: Suppose we wanted to change the owner of some_file from "me" to "you" we could: [me@linuxbox me]$ sudo chown you some_file
+
+Notice that in order to change the owner of a file, we must have the superuser privileges. To do this, our example employed the `sudo` command to execute the `chown`
+`chown` works the same way on directories as it does on files.
+
+## Changing Group Ownership
+
+The group ownership of a file or directory may be changed with `chgrp` This command is used like this:
+[me@linuxbox me]$ chgrp new_group some_file
+
+In the example above, we changed the group ownership of some_file from its previous group to "new_group". We must be the owner of the file or directory to perform a `chgrp`.
