@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Write a script that creates an empty file call hello
+
+touch hello
