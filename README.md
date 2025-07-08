@@ -13,6 +13,7 @@ Each folders Includes:
 
 - [shell basics](./0x00-shell_basics)
 - [shell permissions](./0x01-shell_permissions)
+- [shell redirections](./0x02-shell_redirections)
 - More coming soon
 
 ## 🛠️ Tools and Technologies
