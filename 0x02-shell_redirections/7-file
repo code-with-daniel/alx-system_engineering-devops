@@ -1,0 +1,4 @@
+#!/bin/bash
+# Write a shell script that creates a file named exactly \*\\'"BestSchool"\'\\*$\?\*\*\*\*\*:)
+
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
